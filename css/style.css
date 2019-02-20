@@ -37,8 +37,8 @@
 }
 @media (min-width: 768px) {
     .carousel-caption h5  { font-size: 4.5rem; }
-     .carousel-caption h3 { font-size: 4rem; }
-     .carousel-caption h6 { font-size: 3.7rem; }
+     .carousel-caption h3 { font-size: 3.5rem; }
+     .carousel-caption h6 { font-size: 3.4rem; }
 }
 @media (min-width: 992px) {
    .carousel-caption h5  { font-size: 5rem; }
