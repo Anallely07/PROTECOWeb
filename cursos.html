@@ -40,7 +40,7 @@
 							<a class="nav-link" href="cursos.html">Cursos y Talleres</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="pryectos.html">Proyectos</a>
+							<a class="nav-link" href="proyectos.html">Proyectos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="convocatoria.html">Convocatoria</a>
@@ -78,7 +78,7 @@
 							<a class="nav-link" href="cursos.html">Cursos y Talleres</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="pryectos.html">Proyectos</a>
+							<a class="nav-link" href="proyectos.html">Proyectos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="convocatoria.html">Convocatoria</a>
@@ -99,20 +99,45 @@
 	</header>
 
 	<main>
-	<ul class="nav justify-content-center">
-	  <li class="nav-item">
-	    <a class="nav-link active" href="#">Intersemestrales</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" href="#">Semestrales</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" href="#">Talleres</a>
-	  </li>
-	</ul>
 
 	<div class="alert alert-warning" role="alert">
 	  <span class="alert">PROMOCION: TODOS NUESTROS CURSOS AL 3X2</span> 
+	</div>
+
+	<ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+	  <li class="nav-item">
+	    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">INTERSEMESTRALES</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">SEMESTRALES</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">TALLERES</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="settings-tab" data-toggle="modal" data-target="#exampleModalCenter" href="#settings" role="tab" aria-controls="settings" aria-selected="false">CALENDARIO GENERAL DE INTERSEMESTRALES</a>
+	  </li>
+	</ul>
+
+	<!-- Tab panes -->
+	<div class="tab-content">
+	  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">HOME</div>
+	  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">PROFILE</div>
+	  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">MSG</div>
+	  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+	  	
+	<!-- CALENDARIO -->
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="img"><img src="img/inters.jpg" alt=""></div>
+	    </div>
+	  </div>
+	</div>
+	<!-- CALENDARIO -->
+
+	  </div>
 	</div>
 
 	<!-- JUMBOTRON -->

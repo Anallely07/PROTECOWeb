@@ -95,6 +95,7 @@ h3{
 	.card-body li{font-size: .9rem}
 	.modalt{font-size: 1.5rem}
 	.modalul{font-size: .9rem}
+	p{font-size: 1.1rem}
 
 }
 @media (min-width: 568px) {
@@ -114,6 +115,7 @@ h3{
 	.titulo{font-size: 2.5rem}
 	.img-publicaciones{margin-left:1rem; padding-left: 2.5rem;  width: 100%;}
 	.f{font-size: .8rem}
+	p{font-size: .9rem}
 	.card-body li{font-size: .8rem;}
 	.copy{font-size: 1.5rem;}
 	.modalt{font-size: 2rem;}
@@ -128,6 +130,7 @@ h3{
 	.titulo{font-size: 2.4rem;}
 	.alert{font-size: 3.2rem;}
 	.f{font-size: 1rem}
+	p{font-size: 1.3rem}
 	.card-body{font-size: 1rem;}
 	.img-publicaciones{margin-left:1rem;  padding-left: 2.5rem;  width: 100%;}
 	.modalt{font-size: 2.2rem;}
@@ -142,6 +145,7 @@ h3{
 	.titulo{font-size: 3.5rem}
 	.alert{font-size: 3.4rem;}
 	.f{font-size: 2rem;}
+	p{font-size: 1.6rem;}
 	.card-body li{font-size: 2rem;}
 	.modalt{font-size: 2.8rem}
 	.modalul{font-size: 1.5rem}
@@ -216,5 +220,23 @@ h3{
 }
 
 .nav{
-	padding-top: 1rem;
+	padding: 1rem;
 }
+/*completos*/
+
+.container-fluid{
+	text-align: justify;
+
+}
+
+.rg{
+	text-align: center;
+}
+
+.proyecto{
+	padding: 1.5rem;
+	text-align: justify;
+	border-bottom: solid;
+	border-bottom: black;
+}
+
