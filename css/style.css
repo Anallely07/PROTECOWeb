@@ -1,0 +1,29 @@
+.navbar{
+	background-color: #2f3360;
+	font-family: 'Harmattan', sans-serif;
+	font-size: 2vw;
+}
+
+.carousel-caption h5{
+	font-size: 5rem;
+	color: black;
+	font-family: 'Cantora One', sans-serif;
+	font-weight: bold;
+}
+
+.carousel-caption h3{
+	font-size: 3.5rem;
+	color: #2f3360;
+	font-family: 'Cantora One', sans-serif;
+}
+
+.carousel-caption h6{
+	font-size: 3rem;
+	color: #2f3360;
+	font-family: 'Cantora One', sans-serif;
+}
+
+.carousel-item img {
+  opacity: 0.7;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
