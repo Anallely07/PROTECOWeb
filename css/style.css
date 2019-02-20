@@ -15,16 +15,22 @@ html,body
 	font-size: 1.3rem;
 }
 
-.carousel-caption h5{
+h5{
 	/*font-size: 5rem;*/
 	color: black;
 	font-family: 'Cantora One', sans-serif;
 	font-weight: bold;
 }
 
-.carousel-caption h3{
+h3{
 	font-weight: bold;
 	color: #2f3360;
+	font-family: 'Cantora One', sans-serif;
+}
+
+.titulo{
+	color: black;
+	padding: 1rem;
 	font-family: 'Cantora One', sans-serif;
 }
 
@@ -48,31 +54,50 @@ html,body
 
 @media (min-width: 0px) {
 	.carousel-inner{ width:100%; height: 250px !important;}
-    .carousel-caption h5 { font-size: 2rem; }
-    .carousel-caption h3 { font-size: 1.3rem; }
+    h5 { font-size: 2rem; }
+ h3 { font-size: 1.3rem; }
      .carousel-caption h6 { font-size: 1.2rem; }  
      .card-deck{ padding-top: 0; }
+     .card-img-top {
+     	padding-top: .5rem;
+     	padding-left: 25%;
+       width: 50%;
+       border-top-left-radius: calc(0.25rem - 1px);
+       border-top-right-radius: calc(0.25rem - 1px);
+     }
+     .titulo{font-size: .7rem}
+     
 }
 @media (min-width: 568px) {
 		.carousel-inner{ width:100%; height: 300px !important;}
-    .carousel-caption h5  { font-size: 3rem; }
-     .carousel-caption h3 { font-size: 2.3rem; }
+     h5  { font-size: 3rem; }
+  h3 { font-size: 2.3rem; }
      .carousel-caption h6 { font-size: 2.2rem; }
      .card-deck{ padding-top: .5rem; }
+     .card-img-top {
+     padding-top: .5rem;
+     	padding-left: 10%;
+       width: 95%;
+       border-top-left-radius: calc(0.25rem - 1px);
+       border-top-right-radius: calc(0.25rem - 1px);
+     }
+     .titulo{font-size: 1.5rem}
 }
 @media (min-width: 992px) {
 		.carousel-inner{ width:100%; height: 350px !important;}
-   .carousel-caption h5  { font-size: 4rem; }
-    .carousel-caption h3 { font-size: 3.3rem; }
+   h5  { font-size: 4rem; }
+   h3 { font-size: 3.3rem; }
      .carousel-caption h6 { font-size: 3.2rem; }
      .card-deck{ padding-top: .5rem; }
+     .titulo{font-size: 2.4rem}
 }
 @media (min-width: 1200px) {
 		.carousel-inner{ width:100%; height: 400px !important;}
-   .carousel-caption h5  { font-size: 5rem; }
-    .carousel-caption h3 { font-size: 4.3rem; }
+    h5  { font-size: 5rem; }
+   h3 { font-size: 4.3rem; }
      .carousel-caption h6 { font-size: 4.2rem; }
      .card-deck{ padding-top: .5rem; }
+     .titulo{font-size: 3.5rem}
 }
 
 .card{
