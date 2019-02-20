@@ -7,7 +7,13 @@ html,body
     overflow-x: hidden; 
 }
 
-
+.page-footer{
+	padding: 1rem;
+	background-color: #2f3360;
+	text-align: center;
+	color: #e7c810;
+	font-family: 'Harmattan', sans-serif;
+}
 
 .navbar{
 	background-color: #2f3360;
@@ -21,6 +27,10 @@ html,body
 
 .img-publicaciones{
 	padding-left: 2rem;
+}
+
+.copy{
+	color: white;
 }
 
 h5{
@@ -75,6 +85,8 @@ h3{
      }
      .titulo{font-size: .7rem}
      .img-publicaciones{padding-left: 1rem;  width: 50%;}
+     .f{font-size: 1rem}
+	     .copy{font-size: 1rem}
 
      
 }
@@ -93,6 +105,8 @@ h3{
      }
      .titulo{font-size: 1.5rem}
       .img-publicaciones{margin-left:1rem; padding-left: 2.5rem;  width: 100%;}
+       .f{font-size: 1.5rem}
+       .copy{font-size: 1.5rem}
 }
 @media (min-width: 992px) {
 		.carousel-inner{ width:100%; height: 350px !important;}
@@ -114,5 +128,11 @@ h3{
 }
 
 .card{
-	text-align: center;
+	margin-bottom: 1rem;
 }
+
+.card-title, .card-text, .rg{
+	text-align: left;
+	padding-left: .3rem;
+}
+
